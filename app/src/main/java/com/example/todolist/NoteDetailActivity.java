@@ -90,4 +90,12 @@ public class NoteDetailActivity extends AppCompatActivity
         titleEditText.setText(title);
     }
 
+    public void markAsImportant(View view) {
+        String title = titleEditText.getText().toString();
+        title = "(!) " + title;
+        titleEditText.setText(""); // Clear the EditText
+        titleEditText.setText(title); // Set the new title
+    }
+
+
 }

@@ -11,18 +11,18 @@
     <androidx.appcompat.widget.Toolbar
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#1B5D97"
+        android:background="?attr/colorPrimary"
         android:minHeight="?actionBarSize"
         android:theme="?actionBarTheme">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:text="To-Do List"
+            android:layout_gravity="center|left"
+            android:text="Daily To-Do List"
             android:textColor="@color/white"
             android:textSize="35sp"
-            android:textStyle="bold" />
+            android:textStyle="normal" />
 
         <Button
             android:layout_width="wrap_content"
@@ -41,8 +41,8 @@
         android:id="@+id/noteListView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="3dp"
+        android:layout_marginTop="2dp"
         android:divider="#716F6F"
-        android:dividerHeight="3dp" />
+        android:dividerHeight="2dp" />
 
 </LinearLayout>
